@@ -1,0 +1,89 @@
+.card {
+    border: solid thin black;
+    border-radius: 1rem;
+    width: 24rem;
+    height: 8rem;
+    padding: 1rem;
+}
+
+.container {
+    width: 100%;
+    align-items: center;
+}
+
+header {
+    background: #111;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    border: solid thin black;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    border-color: #333;
+    background: #333;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 1rem;
+    color: #c0c0c0;
+    background: #111;
+    a { color: #faccaf; }
+    a:hover { color: #faeea4; }
+}
+
+.article {
+    border: solid thin #111;
+    border-radius: 1rem;
+    overflow: hidden;
+    width: 800px;
+}
+
+.sidebar {
+    width: 20%;
+    padding: 0.5rem;
+    background: #202d5f;
+    a {
+        color: #fff;
+        margin: 0.5rem;
+        padding: 0.25rem 1rem;
+    }
+}
+
+.blank {
+    background: #fff;
+}
+
+button {
+    border: solid thin black;
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    background-color: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.restart {
+    border-radius: 0.5rem;
+    height: inherit;
+}
+
+.red {
+    background: red;
+}
+
+.none {
+    display: none !important;
+}
